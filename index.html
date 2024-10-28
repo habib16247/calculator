@@ -7,13 +7,13 @@
     <title>CalcMate - Your Smart Calculator</title>
     <link rel="icon" href="./calIcon.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <div class="calculator">
-            <form action="">
+            <form action="" onsubmit="event.preventDefault()">
                 <!-- Display section for the calculator -->
                 <div class="display">
                     <input type="text" name="display" id="inOut">
